@@ -1,0 +1,20 @@
+:root{
+    --black:#10221b;
+    --grey:#eeeeee;
+    --green:#219150;
+    --white:#fff;
+    --light-bg:#eee;
+    --black-bg:#11221b;
+    --border:2px solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,0.1);
+}
+.btn{
+    display:inline-block;
+    margin: 1rem 0 0;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color:var(--black);
+    border: var(--border);
+    text-transform: capitalize;
+    text-decoration: none;
+}
